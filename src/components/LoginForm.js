@@ -9,7 +9,7 @@ class LoginForm extends React.Component {
       password: ''
     };
   }
-  
+
 
   handleChangeUser = (e) => {
       this.setState({
@@ -17,14 +17,14 @@ class LoginForm extends React.Component {
     })
 
   };
-  
+
     handleChangePass = (e) => {
     this.setState({
      [e.target.name]: e.target.value
     })
 
     };
-    
+
 
 handleSubmit=(e)=>{
   e.preventDefault()
